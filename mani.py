@@ -5,6 +5,12 @@ class Abc(object):
     nome = ""
 
 
+class Classe01(object):
+    pk = 0
+    teste = ""
+    boolean = False
+
+
 def princ():
     print('Proc Princ')
 
@@ -13,3 +19,4 @@ print('Vou chamar a func:')
 princ()
 
 x = Abc()
+y = Classe01
