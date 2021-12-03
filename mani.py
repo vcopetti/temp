@@ -11,6 +11,12 @@ class Classe01(object):
     boolean = False
 
 
+class Classe02(object):
+    pk = 0
+    teste = ""
+    boolean = False
+
+
 def princ():
     print('Proc Princ')
 
@@ -20,3 +26,4 @@ princ()
 
 x = Abc()
 y = Classe01
+z = Classe02
